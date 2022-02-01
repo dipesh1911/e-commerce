@@ -1,0 +1,129 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>E_commerce</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\fonts\ElegantIcons.eot" />
+    <None Include="wwwroot\fonts\ElegantIcons.svg" />
+    <None Include="wwwroot\fonts\ElegantIcons.ttf" />
+    <None Include="wwwroot\fonts\ElegantIcons.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\img\banner\banner-1.jpg" />
+    <None Include="wwwroot\img\banner\banner-2.jpg" />
+    <None Include="wwwroot\img\banner\banner-3.jpg" />
+    <None Include="wwwroot\img\blog\blog-1.jpg" />
+    <None Include="wwwroot\img\blog\blog-10.jpg" />
+    <None Include="wwwroot\img\blog\blog-2.jpg" />
+    <None Include="wwwroot\img\blog\blog-3.jpg" />
+    <None Include="wwwroot\img\blog\blog-4.jpg" />
+    <None Include="wwwroot\img\blog\blog-5.jpg" />
+    <None Include="wwwroot\img\blog\blog-6.jpg" />
+    <None Include="wwwroot\img\blog\blog-7.jpg" />
+    <None Include="wwwroot\img\blog\blog-8.jpg" />
+    <None Include="wwwroot\img\blog\blog-9.jpg" />
+    <None Include="wwwroot\img\blog\details\blog-details.jpg" />
+    <None Include="wwwroot\img\blog\details\comment-1.jpg" />
+    <None Include="wwwroot\img\blog\details\comment-2.jpg" />
+    <None Include="wwwroot\img\blog\details\comment-3.jpg" />
+    <None Include="wwwroot\img\blog\sidebar\fp-1.jpg" />
+    <None Include="wwwroot\img\blog\sidebar\fp-2.jpg" />
+    <None Include="wwwroot\img\blog\sidebar\fp-3.jpg" />
+    <None Include="wwwroot\img\categories\category-1.jpg" />
+    <None Include="wwwroot\img\categories\category-2.jpg" />
+    <None Include="wwwroot\img\categories\category-3.jpg" />
+    <None Include="wwwroot\img\categories\category-4.jpg" />
+    <None Include="wwwroot\img\categories\category-5.jpg" />
+    <None Include="wwwroot\img\discount.jpg" />
+    <None Include="wwwroot\img\instagram\insta-1.jpg" />
+    <None Include="wwwroot\img\instagram\insta-2.jpg" />
+    <None Include="wwwroot\img\instagram\insta-3.jpg" />
+    <None Include="wwwroot\img\instagram\insta-4.jpg" />
+    <None Include="wwwroot\img\instagram\insta-5.jpg" />
+    <None Include="wwwroot\img\instagram\insta-6.jpg" />
+    <None Include="wwwroot\img\logo.png" />
+    <None Include="wwwroot\img\payment\payment-1.png" />
+    <None Include="wwwroot\img\payment\payment-2.png" />
+    <None Include="wwwroot\img\payment\payment-3.png" />
+    <None Include="wwwroot\img\payment\payment-4.png" />
+    <None Include="wwwroot\img\payment\payment-5.png" />
+    <None Include="wwwroot\img\product\details\product-1.jpg" />
+    <None Include="wwwroot\img\product\details\product-2.jpg" />
+    <None Include="wwwroot\img\product\details\product-3.jpg" />
+    <None Include="wwwroot\img\product\details\product-4.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-1.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-2.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-3.jpg" />
+    <None Include="wwwroot\img\product\details\thumb-4.jpg" />
+    <None Include="wwwroot\img\product\product-1.jpg" />
+    <None Include="wwwroot\img\product\product-2.jpg" />
+    <None Include="wwwroot\img\product\product-3.jpg" />
+    <None Include="wwwroot\img\product\product-4.jpg" />
+    <None Include="wwwroot\img\product\product-5.jpg" />
+    <None Include="wwwroot\img\product\product-6.jpg" />
+    <None Include="wwwroot\img\product\product-7.jpg" />
+    <None Include="wwwroot\img\product\product-8.jpg" />
+    <None Include="wwwroot\img\product\related\rp-1.jpg" />
+    <None Include="wwwroot\img\product\related\rp-2.jpg" />
+    <None Include="wwwroot\img\product\related\rp-3.jpg" />
+    <None Include="wwwroot\img\product\related\rp-4.jpg" />
+    <None Include="wwwroot\img\shop-cart\cp-1.jpg" />
+    <None Include="wwwroot\img\shop-cart\cp-2.jpg" />
+    <None Include="wwwroot\img\shop-cart\cp-3.jpg" />
+    <None Include="wwwroot\img\shop-cart\cp-4.jpg" />
+    <None Include="wwwroot\img\shop\shop-1.jpg" />
+    <None Include="wwwroot\img\shop\shop-2.jpg" />
+    <None Include="wwwroot\img\shop\shop-3.jpg" />
+    <None Include="wwwroot\img\shop\shop-4.jpg" />
+    <None Include="wwwroot\img\shop\shop-5.jpg" />
+    <None Include="wwwroot\img\shop\shop-6.jpg" />
+    <None Include="wwwroot\img\shop\shop-7.jpg" />
+    <None Include="wwwroot\img\shop\shop-8.jpg" />
+    <None Include="wwwroot\img\shop\shop-9.jpg" />
+    <None Include="wwwroot\img\trend\bs-1.jpg" />
+    <None Include="wwwroot\img\trend\bs-2.jpg" />
+    <None Include="wwwroot\img\trend\bs-3.jpg" />
+    <None Include="wwwroot\img\trend\f-1.jpg" />
+    <None Include="wwwroot\img\trend\f-2.jpg" />
+    <None Include="wwwroot\img\trend\f-3.jpg" />
+    <None Include="wwwroot\img\trend\ht-1.jpg" />
+    <None Include="wwwroot\img\trend\ht-2.jpg" />
+    <None Include="wwwroot\img\trend\ht-3.jpg" />
+    <None Include="wwwroot\sass\style.scss" />
+    <None Include="wwwroot\sass\_base.scss" />
+    <None Include="wwwroot\sass\_blog-details.scss" />
+    <None Include="wwwroot\sass\_blog-sidebar.scss" />
+    <None Include="wwwroot\sass\_blog.scss" />
+    <None Include="wwwroot\sass\_breadcrumb.scss" />
+    <None Include="wwwroot\sass\_categories.scss" />
+    <None Include="wwwroot\sass\_checkout.scss" />
+    <None Include="wwwroot\sass\_contact.scss" />
+    <None Include="wwwroot\sass\_footer.scss" />
+    <None Include="wwwroot\sass\_header.scss" />
+    <None Include="wwwroot\sass\_home-page.scss" />
+    <None Include="wwwroot\sass\_mixins.scss" />
+    <None Include="wwwroot\sass\_product-details.scss" />
+    <None Include="wwwroot\sass\_product.scss" />
+    <None Include="wwwroot\sass\_responsive.scss" />
+    <None Include="wwwroot\sass\_shop-cart.scss" />
+    <None Include="wwwroot\sass\_shop.scss" />
+    <None Include="wwwroot\sass\_variable.scss" />
+    <None Include="wwwroot\Source\barfiller-master.zip" />
+    <None Include="wwwroot\Source\bootstrap-4.2.1-dist.zip" />
+    <None Include="wwwroot\Source\font-awesome-4.7.0.zip" />
+    <None Include="wwwroot\Source\jQuery.countdown-master.zip" />
+    <None Include="wwwroot\Source\Magnific-Popup-master.zip" />
+    <None Include="wwwroot\Source\OwlCarousel2-2.3.4.zip" />
+    <None Include="wwwroot\Source\SlickNav-master.zip" />
+  </ItemGroup>
+
+</Project>
